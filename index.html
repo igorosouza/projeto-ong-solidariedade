@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG Solidariedade - SPA</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="imagens/logo-ong.jpg" alt="Logo ONG Solidariedade - mãos unidas em colaboração" width="80" height="80">
+                <h1>ONG Solidariedade</h1>
+                <p class="tagline">Transformando Vidas, Construindo Futuros</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#projetos">Nossos Projetos</a></li>
+                    <li><a href="#cadastro">Voluntarie-se</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contêiner principal onde o JavaScript injetará as telas dinamicamente -->
+    <main id="app-main"></main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p><strong>Email:</strong> <a href="mailto:contato@ongsolidariedade.org.br">contato@ongsolidariedade.org.br</a></p>
+                <p><strong>Telefone:</strong> <a href="tel:+551133334444">(11) 3333-4444</a></p>
+                <p><strong>Endereço:</strong> Rua da Solidariedade, 1000 - São Paulo/SP</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ONG Solidariedade. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Biblioteca Externa SweetAlert2 (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Script de Roteamento SPA como Módulo ES6 -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
